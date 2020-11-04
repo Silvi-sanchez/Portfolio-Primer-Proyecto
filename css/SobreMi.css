@@ -1,0 +1,138 @@
+section{
+    display: flex;
+    justify-content: center;
+    padding: 12.5em 2em 6.25em;
+    text-align: center;
+}
+
+.foto{
+    max-width: 35em;
+}
+
+.sobremi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100%;
+}
+
+.sobremi-info{
+    width: 100%;
+    max-width: 31.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.sobremi-presentacion{
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+
+.sobremi-nombre{
+    font-size: 3.75rem;
+    font-weight: 900;
+    color: rgb(59, 32, 82);
+    margin-bottom: 10px;
+}
+
+.sobremi-descripcion{
+    margin-bottom: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+.loquehago{
+    background-color: rgb(56, 126, 158);
+    color: white;
+    padding: 0.93em 2.5em;
+    border-radius: 6.25em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.loquehago a{
+    color: rgb(255, 255, 255);
+}
+
+.loquehago a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.loquehago:hover{
+    background-color: rgb(131, 98, 145);
+    color: white;
+}
+
+
+/* Inicio Media Query */
+
+  @media screen and (min-width: 700px) and (max-width:1024px){
+
+    .sobremi-section{
+      flex-flow: column nowrap;
+      height: auto;
+      margin-top: 10vh;
+    }
+
+    .sobremi-info{
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding-top: 10%;
+    }
+
+    .sobremi p, .sobremi h1{
+      text-align: center;
+    }
+    
+    .foto{
+    margin: auto;
+    margin-left: 10%;
+    }
+} 
+
+@media screen and (min-width: 320px) and (max-width:600px){
+              
+  .sobremi {
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    }
+  .sobremi-section{
+     width: 70rem;
+    }
+
+  .sobremi-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 5%;
+    }
+    .loquehago{
+    display: flex;
+    align-items: center;
+    }
+  .foto{
+    width: 50%;
+    padding-top: 10%;
+    }
+}
+        
+
+@media screen (min-width:2300px) and (max-width:2560px){
+  .sobremi {
+    width: 50%;
+  }
+}

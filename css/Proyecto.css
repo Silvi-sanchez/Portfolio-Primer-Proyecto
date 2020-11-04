@@ -58,19 +58,73 @@ nav ul li a:hover {
     color: inherit;
 }
 
+#burguer, #label-icon{
+    display: none;
+  }
+
 
 /* Inicio Media Query */
 
 @media all and (max-width: 600px) {
     .menu{
-        display: none;
+      display: none;
     }
-  } 
 
-@media all and (max-width: 570px){
-    html{
-        width: auto;
+    #burguer:checked  ~ .menu{
+     display:block;
+    }
+  
+   #burguer {
+    display: none;
+    }
+  
+   #label-icon {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    padding-bottom: 5%;
+    }
+  
+   .header-div{
+       padding-top: 30px;
+       padding: 16px;
+    }
+
+   #label-icon:hover{
+    background: rgb(171, 171, 172);
+    }
+  
+   #burguer:checked ~ #label-icon {
+    background: lightgrey; 
+    }
+  
+  .menu{
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+    height: 5%;
+    position: absolute;
+    }
+  
+  
+  .link {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    }
+  
+  .link:hover {
+    filter: brightness(110%);
     }
 }
-
-  
+ 

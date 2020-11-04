@@ -1,8 +1,10 @@
 section{
-    display: flex;
-    justify-content: center;
-    padding: 12.5em 2em 6.25em;
-    text-align: center;
+  display: flex; 
+  text-align: center; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12.5em 6em 6.25em;
 }
 
 .foto{
@@ -78,12 +80,13 @@ section{
 
 /* Inicio Media Query */
 
-  @media screen and (min-width: 700px) and (max-width:1024px){
+  @media screen and (max-width:1024px){
 
     .sobremi-section{
       flex-flow: column nowrap;
       height: auto;
       margin-top: 10vh;
+      width: 200%;
     }
 
     .sobremi-info{
@@ -99,11 +102,10 @@ section{
     
     .foto{
     margin: auto;
-    margin-left: 10%;
     }
 } 
 
-@media screen and (min-width: 320px) and (max-width:600px){
+@media screen and (min-width: 280px) and (max-width:700px){
               
   .sobremi {
     width: 70rem;
@@ -118,21 +120,15 @@ section{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 5%;
     }
     .loquehago{
     display: flex;
     align-items: center;
     }
   .foto{
-    width: 50%;
+    width: 60%;
     padding-top: 10%;
     }
 }
         
 
-@media screen (min-width:2300px) and (max-width:2560px){
-  .sobremi {
-    width: 50%;
-  }
-}

@@ -15,6 +15,7 @@ header{
     top: 0;
     background: linear-gradient(180deg, rgba(197,188,219,1) 20%, rgba(201,203,221,1) 68%);
     z-index: 999;
+    padding: 0.80rem;
 }
 .menu{
     list-style: none;
@@ -38,7 +39,6 @@ nav ul li a:hover {
 
 .header-div{
     width: 100%;
-    max-width: 75rem;
 }
 .boton{
     background-color: rgb(56, 126, 158);
@@ -72,11 +72,11 @@ nav ul li a:hover {
 
     #burguer:checked  ~ .menu{
      display:block;
-    }
+  }
   
    #burguer {
     display: none;
-    }
+  }
   
    #label-icon {
     box-sizing: border-box;
@@ -90,7 +90,7 @@ nav ul li a:hover {
     text-align: center;
     user-select: none;
     padding-bottom: 5%;
-    }
+  }
   
    .header-div{
        padding-top: 30px;
@@ -99,11 +99,11 @@ nav ul li a:hover {
 
    #label-icon:hover{
     background: rgb(171, 171, 172);
-    }
+  }
   
    #burguer:checked ~ #label-icon {
     background: lightgrey; 
-    }
+  }
   
   .menu{
     margin-top:0;
@@ -111,7 +111,7 @@ nav ul li a:hover {
     width: 200px;
     height: 5%;
     position: absolute;
-    }
+  }
   
   
   .link {
@@ -121,10 +121,14 @@ nav ul li a:hover {
     padding: 10px;
     list-style: none;
     border-bottom: 1px solid grey;
-    }
+  }
   
   .link:hover {
-    filter: brightness(110%);
-    }
+    filter: brightness(100%);
+  }
 }
- 
+
+
+
+
+  

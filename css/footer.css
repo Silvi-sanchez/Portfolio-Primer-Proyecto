@@ -52,22 +52,21 @@ footer{
 .saludo-final{
     padding: 30px 0 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    font-size: 1.3em;
     padding-left: 35px;
 }
 
 
 /* Inicio Media Query */
 
-
-@media (min-width: 700px)  and (max-width:1024px){
+@media screen and (max-width:1024px){
     footer{
         width: 200%;
     }
 }
 
-@media (min-width: 280px) and (max-width:700px){
+@media all and (max-width:700px){
     footer{
-        width: 70rem;
+        min-width: 81rem;
     }
 }

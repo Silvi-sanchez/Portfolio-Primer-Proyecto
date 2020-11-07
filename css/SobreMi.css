@@ -1,14 +1,15 @@
-section{
+.sobremi-section{
   display: flex; 
   text-align: center; 
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12.5em 6em 6.25em;
+  padding: 12em 6em 6.50em;
 }
 
 .foto{
-    max-width: 35em;
+    max-width: 36em;
+    margin-left: 17em;
 }
 
 .sobremi{
@@ -17,39 +18,40 @@ section{
     align-items: center;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     width: 100%;
 }
 
 .sobremi-info{
     width: 100%;
-    max-width: 31.25em;
+    max-width: 31.27rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 .sobremi-presentacion{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-top: 2.5rem;
     margin-bottom: 0px;
     font-weight: 900;
 }
 
 .sobremi-nombre{
-    font-size: 3.75rem;
+    font-size: 3.20rem;
     font-weight: 900;
     color: rgb(59, 32, 82);
     margin-bottom: 10px;
+    width: 170%;
 }
 
 .sobremi-descripcion{
-    margin-bottom: 2.5em;
+    margin-bottom: 2.8em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-
+    font-size: 1.5em;
+    width: 170%;
 }
 
 .loquehago{
@@ -57,7 +59,7 @@ section{
     color: white;
     padding: 0.93em 2.5em;
     border-radius: 6.25em;
-    font-weight: 500;
+    font-weight: 200;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +76,7 @@ section{
 
 .loquehago:hover{
     background-color: rgb(131, 98, 145);
+    background: linear-gradient(0deg, rgba(141,98,145,1) 0%, rgba(56,126,158,1) 0%, rgba(142,102,145,1) 64%);
     color: white;
 }
 
@@ -105,15 +108,14 @@ section{
     }
 } 
 
-@media screen and (min-width: 280px) and (max-width:700px){
+@media (min-width:280px) and (max-width:700px){
               
   .sobremi {
-    width: 70rem;
     display: flex;
     flex-direction: column;
     }
   .sobremi-section{
-     width: 70rem;
+     min-width: 81rem;
     }
 
   .sobremi-info{

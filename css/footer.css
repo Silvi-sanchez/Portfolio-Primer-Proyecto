@@ -1,4 +1,4 @@
-footer{
+.footer-caja{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,6 +57,7 @@ footer{
 }
 
 
+
 /* Inicio Media Query */
 
 @media screen and (max-width:1024px){
@@ -68,5 +69,13 @@ footer{
 @media all and (max-width:700px){
     footer{
         min-width: 81rem;
+    }
+
+    .footer-nav-link {
+        font-size: 1.2em;
+    }
+
+    .saludo-final {
+        font-size: 1.5em;
     }
 }

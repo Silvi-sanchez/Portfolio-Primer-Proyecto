@@ -18,15 +18,15 @@
 }
 
 .cita-text{
-    font-size: 2em;
-    max-width: 38.5rem;
+    font-size: 1.6em;
+    max-width: 38rem;
     font-family: 'Playfair Display', serif;
     color: rgb(20, 20, 20);
     padding-top: 1em;
 }
 
 .micita-name{
-    font-size: 1.60rem;
+    font-size: 1.30em;
     margin-top: 2.5rem;
     color: rgb(20, 20, 20);
     padding-block-end: 18px;
@@ -44,6 +44,7 @@
         justify-content: center;
         text-align: center;
     }
+    
     .micita-name{
         padding-block-end: 2em;
     }
@@ -53,5 +54,13 @@
 @media all and (max-width:648px){
     .micita{
         min-width: 81rem;
+    }
+
+    .cita-text{
+        font-size: 2em;
+    }
+    
+    .micita-name {
+        font-size: 1.60em;
     }
 }

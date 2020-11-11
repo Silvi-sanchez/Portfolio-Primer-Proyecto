@@ -1,12 +1,12 @@
 # Portafolio de Silvina Sánchez
 
-### Este proyecto fue realizado como evaluación final del primer módulo de ADA. Donde se muestra los conocimientos obtenidos en este módulo, usando **HTML** y **CSS** para darle varios estilos; haciendo un proyecto responsivo. Así mismo, se muestran los proyectos realizados. 
+## Este proyecto fue realizado como evaluación final del primer módulo de ADA. Donde se muestra los conocimientos obtenidos en este módulo, usando **HTML** y **CSS** para darle varios estilos; haciendo un proyecto responsivo. Así mismo, se muestran los proyectos realizados y a realizar. 
 
 <br>
 
 ***
 
-### Podés observar como quedó dándole click a este [enlace](https://github.com/Silvi-sanchez/Portfolio-Primer-Proyecto-ADA.git) o puedes hacerlo desde [acá.]()
+### Podés observar como quedó dándole click a este [enlace](https://github.com/Silvi-sanchez/Portfolio-Primer-Proyecto-ADA.git) o puedes hacerlo desde [acá.](https://upbeat-yonath-ba7aa9.netlify.app)
 
 <br>
 
@@ -43,4 +43,4 @@ Si querés tener el código en tu computadora, deberás seguir estos pasos en tu
 <br>
 
 ***
-### Por [Silvina Sánchez.](https://github.com/Silvi-sanchez) ❤️
+### Por [Silvina Sánchez](https://github.com/Silvi-sanchez) ❤️

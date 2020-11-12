@@ -15,7 +15,7 @@ header{
   top: 0;
   background: linear-gradient(180deg, rgba(197,188,219,1) 20%, rgba(201,203,221,1) 68%);
   z-index: 999;
-  padding: 0.80rem;
+  padding: 0.70rem;
 }
 
 .menu{
@@ -88,9 +88,9 @@ nav ul li a:hover {
     display: inline-block;
     border: 2px solid black;
     border-radius: 5px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
     font-weight: bold;
     text-align: center;
     user-select: none;
@@ -118,16 +118,36 @@ nav ul li a:hover {
     position: absolute;
   }
 
-  .link {
+  .link{
     display: block;
     background: lightgrey;
     margin: 0;
     padding: 10px;
     list-style: none;
     border-bottom: 1px solid grey;
+    font-size: 2em;
+    width: 328px;
   }
 
-  .link:hover {
+  .link-item{
+    background-color: rgb(56, 126, 158);
+    border-radius: 6.25rem;
+    color: rgb(131, 98, 145);
+  }
+
+  .link-item:hover{
+    background-color: rgb(131, 98, 145);
+  }
+  .boton{
+    border-radius: 0px;
+  }
+
+  .boton:hover{
+    background: lightgrey;
+    filter: brightness(100%);
+  }
+
+  .link:hover{
     filter: brightness(100%);
   }
 }

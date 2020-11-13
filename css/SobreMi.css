@@ -1,6 +1,7 @@
 :root{
   --first-color: #387E9E;
   --second-color: #836291;
+  --tittle-color:	#939097;
 }
 
 .sobremi-section{
@@ -42,6 +43,7 @@
   margin-top: 2.5rem;
   margin-bottom: 0px;
   font-weight: 900;
+  color: var(--tittle-color)
 }
 
 .sobremi-nombre{

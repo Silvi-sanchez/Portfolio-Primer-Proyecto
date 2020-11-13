@@ -19,18 +19,19 @@
 
 .cita-text{
     font-size: 1.6em;
+    font-weight: 550;
     max-width: 38rem;
     font-family: 'Playfair Display', serif;
-    color: rgb(20, 20, 20);
     padding-top: 1em;
+    color: rgb(40, 25, 51);
 }
 
 .micita-name{
     font-size: 1.30em;
     margin-top: 2.5rem;
-    color: rgb(20, 20, 20);
     padding-block-end: 18px;
     font-weight: 900;
+    color: rgb(40, 25, 51);
 }
 
 

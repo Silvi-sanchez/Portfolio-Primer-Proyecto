@@ -1,3 +1,8 @@
+:root{
+  --first-color: #387E9E;
+  --second-color: #836291;
+}
+
 .sobremi-section{
   display: flex; 
   text-align: center; 
@@ -55,7 +60,7 @@
 }
 
 .loquehago{
-  background-color: rgb(56, 126, 158);
+  background-color: var(--first-color);
   color: white;
   padding: 0.93em 2.5em;
   border-radius: 6.25em;
@@ -75,7 +80,7 @@
 }
 
 .loquehago:hover{
-  background-color: rgb(131, 98, 145);
+  background-color: var(--second-color);
   background: linear-gradient(0deg, rgba(141,98,145,1) 0%, rgba(56,126,158,1) 0%, rgba(142,102,145,1) 64%);
   color: white;
 }

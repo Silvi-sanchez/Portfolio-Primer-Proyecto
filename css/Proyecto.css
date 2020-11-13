@@ -3,12 +3,17 @@
   box-sizing: border-box;
 }
 
+:root{
+  --first-color: #387E9E;
+  --second-color: #836291;
+}
+
 html, body {
   width: 100%;
   height: 100vh;
 }
 
-header{
+.header-caja{
   box-shadow: 0 0 29px 0 rgba(114, 114, 114, 0.651);
   position: fixed;
   width: 100%;
@@ -30,13 +35,13 @@ nav ul li a {
   display: block;
   text-decoration: none;
   padding: 0.62em 0.62em;
-  color: rgb(56, 126, 158);
+  color: var(--first-color);
   font-weight: 450;
 }
 
 nav ul li a:hover {
   cursor: pointer;
-  color: rgb(131, 98, 145);
+  color: var(--second-color);
 }
 
 .header-div{
@@ -44,7 +49,7 @@ nav ul li a:hover {
 }
 
 .boton{
-  background-color: rgb(56, 126, 158);
+  background-color: var(--first-color);
   padding: 0 0.62em;
   border-radius: 1.25em;
 }
@@ -58,7 +63,7 @@ nav ul li a:hover {
 }
 
 .boton:hover{
-  background-color: rgb(131, 98, 145);
+  background-color: var(--second-color);
   color: inherit;
 }
 
@@ -130,13 +135,13 @@ nav ul li a:hover {
   }
 
   .link-item{
-    background-color: rgb(56, 126, 158);
+    background-color:var(--first-color);
     border-radius: 6.25rem;
-    color: rgb(131, 98, 145);
+    color: var(--second-color);
   }
 
   .link-item:hover{
-    background-color: rgb(131, 98, 145);
+    background-color: var(--second-color));
   }
   .boton{
     border-radius: 0px;

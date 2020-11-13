@@ -101,6 +101,7 @@
     .conocimientos{
         display: flex;
         flex-direction: column;
+        padding-top: 3em;
     }
   
     .conocimientos-cajas{

@@ -20,15 +20,16 @@
 .conocimientos-titulo{
     font-size: 2em;
     font-weight: 950;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #565458;
+    font-family: helvetica;
+    color: #483752;
 }
   
 .conocimientos-parrafo{
     font-size: 1.2em;
     max-width: 27em;
-    font-family: inherit;
+    font-family: helvetica;
     padding-top: 1em;
+    color: #37353a;
 }
   
 .conocimientos-cajas{

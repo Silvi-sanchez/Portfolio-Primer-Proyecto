@@ -3,7 +3,7 @@
   --validoverde:#88c459;
 }
 
-.contactame-seccion{
+.contactame-section{
   display: flex; 
   text-align: center; 
   flex-direction: row;
@@ -225,7 +225,7 @@ textarea:valid {
     min-width: fit-content;
   }
     
-  .contactame-seccion{
+  .contactame-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -249,7 +249,7 @@ textarea:valid {
     min-width: 40rem;
   }
 
-  .contactame-seccion{
+  .contactame-section{
     display: flex;
     flex-direction: column;
     justify-content: center;

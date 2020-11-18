@@ -7,13 +7,20 @@
     <meta name="author" content="Silvina Sánchez">
     <meta name="description" content="Portafolio realizado como evaluación final del primer módulo de ADA.">
     <meta name="keywords" content="Portafolio, Front End, Programación, ADA">
+    <!-- FACEBOOK -->
     <meta property="og:title" content="Portafolio">
     <meta property="og:description" content="Portafolio realizado como evaluación final del primer módulo de ADA.">
     <meta property="og:type" content="article">
     <meta property="og:site name" content="Portafolio-Primer-Proyecto-ADA">
     <meta property="og:url" content="https://silvi-sanchez.github.io/Portfolio-Primer-Proyecto-ADA/">
     <meta property="og:image" content="https://github.com/Silvi-sanchez/Portfolio-Primer-Proyecto-ADA/blob/main/img/imgmeta.png?raw=true"> 
-
+    <!-- TWITTER -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://silvi-sanchez.github.io/Portfolio-Primer-Proyecto-ADA/">
+    <meta property="twitter:title" content="Portafolio">
+    <meta property="twitter:description" content="Portafolio realizado como evaluación final del primer módulo de ADA.">
+    <meta property="twitter:image" content="https://github.com/Silvi-sanchez/Portfolio-Primer-Proyecto-ADA/blob/main/img/imgmeta.png?raw=true">
+    <!-- Links -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <link rel="shortcut icon" href="./img/favicon.icono.png" type="image/x-icon">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -27,11 +34,12 @@
     <title>Silvina Sánchez</title>
 </head>
 <body>
+    <!--Menú - Link Navegación-->
     <header class="header-caja">
      <div class="header-div">
         <nav class="header-nav" id="menu-on">  
             <input type="checkbox" id="burguer">
-            <label for="burguer" id="label-icon"> ☰ </label>
+            <label aria-label = "Menú" for="burguer" id="label-icon"> ☰ </label>
             <ul class="menu">
                 <li class="link">
                     <a href="#sobremi">HOLA</a>
@@ -46,7 +54,7 @@
                     <a href="#contacto" class="link-item">CONTACTO</a>
                 </li>
             </ul>
-        <!--Fin links de navegación-->
+        <!--Fin link de navegación-->
         </nav>
     </div>
 </header>
@@ -57,9 +65,9 @@
             <p class="sobremi-presentacion">¡Hola! soy</p>
             <h1 class="sobremi-nombre">Silvina Sánchez</h1>
             <p class="sobremi-descripcion">Desarrolladora, creativa, visionaria con ganas de seguir aprendiendo y superándome.</p>
-            <a href="#proyectos" class="loquehago">LO QUE HAGO</a>
+            <a aria-label = "Botón lo que hago" href="#proyectos" class="loquehago">LO QUE HAGO</a>
             </div>
-            <img src="./img/imgsobremi.svg" alt="foto" class="foto">
+            <img aria-hidden="true" src="./img/imgsobremi.svg" alt="foto" class="foto">
         </div> 
     </section>
     <!--Fin Sobre mí-->  
@@ -71,27 +79,27 @@
             <div class="conocimientos-cajas">
                 <div class="conocimientos-item">
                     <i class="devicon-html5-plain colored"></i>
-                    <p class="parrafo">HTML 5</p>
+                    <p aria-label = "Conocimiento en HTML" class="parrafo">HTML 5</p>
                 </div>
                 <div class="conocimientos-item">
                     <i class="devicon-css3-plain colored"></i>
-                    <p class="parrafo">CSS 3</p>
+                    <p aria-label = "Conocimiento en CSS 3" class="parrafo">CSS 3</p>
                 </div>
                 <div class="conocimientos-item">
                     <i class="devicon-sass-original colored"></i>
-                    <p class="parrafo">Sass</p>
+                    <p aria-label = "Conocimiento en Sass" class="parrafo">Sass</p>
                 </div>
                 <div class="conocimientos-item">
                     <i class="devicon-javascript-plain colored"></i>
-                    <p class="parrafo">Javascript</p>
+                    <p aria-label = "Conocimiento en Javascript" class="parrafo">Javascript</p>
                 </div>
                 <div class="conocimientos-item">
                     <i class="devicon-react-original colored"></i>
-                    <p class="parrafo">React</p>
+                    <p aria-label = "Conocimiento en React" class="parrafo">React</p>
                 </div>
                 <div class="conocimientos-item">
                     <i class="devicon-git-plain colored"></i>
-                    <p class="parrafo">Git</p>
+                    <p aria-label = "Conocimiento en Git" class="parrafo">Git</p>
                 </div>
         </div>
     </section>
@@ -99,7 +107,7 @@
     <!--Mi cita-->   
     <section class="micita">
       <div class="micita-contenido">
-        <img class="imgcomilla" src="./img/cita.jpg" alt="cita">
+        <img aria-hidden="true" class="imgcomilla" src="./img/cita.jpg" alt="cita">
         <blockquote class="cita-text">"El optimismo es la fe que dirige al éxito. No se puede hacer nada sin esperanza ni confianza"</blockquote>
         <h2 class="micita-name">Helen Keller</h2>
       </div> 
@@ -112,35 +120,35 @@
             <p class="proyectos-texto">Observa los proyectos realizados hasta el momento. </p>
             <div class="proyects">
                 <a class="cuadrado" href="#" target="_blank">
-                    <img class="imagen" src="./img/portafolio.png" alt="portafolio">
-                    <p class="nameproyecto">Portafolio</p>
+                    <img aria-hidden="true" class="imagen" src="./img/portafolio.png" alt="portafolio">
+                    <p aria-label = "Proyecto Portafolio" class="nameproyecto">Portafolio</p>
                 </a>
                 <a class="cuadrado" href="#" target="_blank">
-                    <img class="imagen" src="./img/app cocina.png" alt="appcocina">
-                    <p class="nameproyecto">Cocina Online</p>
+                    <img aria-hidden="true" class="imagen" src="./img/app cocina.png" alt="appcocina">
+                    <p aria-label = "Proyecto Cocina online" class="nameproyecto">Cocina Online</p>
                 </a>
                 <a class="cuadrado" href="#" target="_blank">
-                    <img class="imagen" src="./img/app musica.png" alt="appmusica">
-                    <p class="nameproyecto">App de Música</p>
+                    <img aria-hidden="true" class="imagen" src="./img/app musica.png" alt="appmusica">
+                    <p aria-label = "Proyecto app música" class="nameproyecto">App de Música</p>
                 </a>
                 <a class="cuadrado" href="#" target="_blank">
-                    <img class="imagen" src="./img/buscador app.png" alt="buscadorapp">
-                    <p class="nameproyecto">Buscador de App</p>
+                    <img aria-hidden="true" class="imagen" src="./img/buscador app.png" alt="buscadorapp">
+                    <p aria-label = "Proyecto buscador de app" class="nameproyecto">Buscador de App</p>
                 </a>
                 <a class="cuadrado" href="#" target="_blank">
-                    <img class="imagen" src="./img/compras online.png" alt="compras">
-                    <p class="nameproyecto">Compras Online</p>
+                    <img aria-hidden="true" class="imagen" src="./img/compras online.png" alt="compras">
+                    <p aria-label = "Proyecto compras online" class="nameproyecto">Compras Online</p>
                 </a> 
                 <a class="cuadrado" href="#" target="_blank">
-                    <img class="imagen" src="./img/progresioneseapp.png" alt="progresiones">
-                    <p class="nameproyecto">Pregresiones tecnológicas</p>
+                    <img aria-hidden="true" class="imagen" src="./img/progresioneseapp.png" alt="progresiones">
+                    <p aria-label = "Proyecto Progresiones tecnológicas" class="nameproyecto">Progresiones tecnológicas</p>
                 </a>   
             </div>
         </div>
     </section>
     <!--Fin de mis proyectos-->  
     <!--Contactame-->  
-    <section class="contactame-seccion" id="contacto">
+    <section class="contactame-section" id="contacto">
         <div class="contactame-div">
             <div class="contacto">
                 <section class="contactame-columna">
@@ -177,23 +185,23 @@
                      <form>
                         <div class="formulario-name">
                             <div class="formulario-detalle">
-                                <label for="name">Nombre*</label>
-                                <input type="text" name="name" id="name" placeholder="Ej: Paula" required>
+                                <label aria-label = "Colocar nombre" for="name">Nombre*</label>
+                                <input aria-hidden="true" type="text" name="name" id="name" placeholder="Ej: Paula" required>
                             </div>
                             <div class="formulario-detalle">
-                                <label for="username">Apellido*</label>
-                                <input type="text" name="username" id="username" placeholder="Ej: Navarro" required>
+                                <label aria-label = "Colocar apellido" for="username">Apellido*</label>
+                                <input aria-hidden="true" type="text" name="username" id="username" placeholder="Ej: Navarro" required>
                             </div>
                         </div>
                         <div class="formulario-detalle">
-                            <label for="email">Email*</label>
-                            <input type="email" name="email" id="email" placeholder="Ej: email@gmail.com" required>
+                            <label aria-label = "Colocar mail" for="email">Email*</label>
+                            <input aria-hidden="true" type="email" name="email" id="email" placeholder="Ej: email@gmail.com" required>
                         </div>
                         <div class="formulario-detalle">
-                            <label for="mensaje">Mensaje*</label>
-                            <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba un mensaje aquí" required></textarea>
+                            <label aria-label = "Escribir mensaje" for="mensaje">Mensaje*</label>
+                            <textarea aria-hidden="true" name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba un mensaje aquí" required></textarea>
                         </div>
-                        <button type="submit" class="formulario-boton">ENVIAR</button>
+                        <button aria-label = "enviar correo electrónico" type="submit" class="formulario-boton">ENVIAR</button>
                     </form>
                 </section>
             </div>
@@ -221,22 +229,22 @@
         </nav>
             <ul class="footer-link-sociales">
                 <li class="redes-sociales-link">
-                    <a href="https://twitter.com/silvii_sanchez" target="_blank" class="twitter">
+                    <a aria-label = "Twitter" href="https://twitter.com/silvii_sanchez" target="_blank" class="twitter">
                         <i class="devicon-twitter-plain footer-devicon"></i>
                     </a>
                 </li>
                 <li class="redes-sociales-link">
-                    <a href="https://github.com/Silvi-sanchez" target="_blank" class="github">
+                    <a aria-label = "Git" href="https://github.com/Silvi-sanchez" target="_blank" class="github">
                         <i class="devicon-github-plain footer-devicon"></i>
                     </a>
                 </li>
                 <li class="redes-sociales-link">
-                    <a href="http://linkedin.com/in/silvina-sánchez-460604141" target="_blank" class="linkedin">
+                    <a aria-label = "Linkedin" href="http://linkedin.com/in/silvina-sánchez-460604141" target="_blank" class="linkedin">
                         <i class="devicon-linkedin-plain footer-devicon"></i>
                     </a>
                 </li>
                 <li class="redes-sociales-link">
-                    <a href="mailto:silvinans@gmail.com" target="_blank" class="email">
+                    <a aria-label = "Email" href="mailto:silvinans@gmail.com" target="_blank" class="email">
                         <i class="fa fa-envelope-square footer-devicon"></i>
                     </a>
                 </li>
